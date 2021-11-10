@@ -4,7 +4,7 @@ class Saluto
 
     protected $to;
     protected $cortesia = "Buongiorno";
-
+    protected $invito = "Come va?";
 
     public function __construct($destinatario)
     {
@@ -13,7 +13,7 @@ class Saluto
     
     public function get()
     {
-        return $this->cortesia . ' ' . $this->to;
+        return $this->cortesia . ' ' . $this->to . ". " . $this->invito;
     }
 
 
