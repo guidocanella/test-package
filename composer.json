@@ -1,3 +1,9 @@
 {
-    "name": "guidocanella/saluto"
+    "name": "guidocanella/saluto",
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/guidocanella/test-package"
+        }
+    ]
 }
