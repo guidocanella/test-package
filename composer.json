@@ -1,3 +1,6 @@
 {
-    "name": "guidocanella/test-package"
+    "name": "guidocanella/test-package",
+	"autoload": {
+		"classmap": ["."]
+	}
 }
